@@ -1,0 +1,38 @@
+Hi Jason
+
+I bought your book. Loving it although when deploying to Heroku through mac terminal after login in successfully and creating app, I get an error when running "git push heroku master"
+
+Error returned below:
+
+...
+Writing objects: 100% (64/64), 15.94 KiB | 0 bytes/s, done.
+Total 64 (delta 1), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Failed to detect set buildpack https://github.com/jasonswett/heroku-buildpack-nodejs
+remote: More info: https://devcenter.heroku.com/articles/buildpacks#detection-failure
+remote:
+remote:  !     Push failed
+remote: Verifying deploy...
+remote:
+remote: !	Push rejected to still-harbor-34757.
+remote:
+To https://git.heroku.com/still-harbor-34757.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/still-harbor-34757.git'
+
+
+it seems like remote: -----> Failed to detect set buildpack https://github.com/jasonswett/heroku-buildpack-nodej failed please check your side or advise to what I could of missed. All new to me.
+
+I also installed exactly what your versions were:
+
+Git 2.7.4
+Node 6.9.1
+NPM 3.10.8
+Ruby 2.3.1
+Rails 5.0.0.1
+Heroku CLI
+
+Thanks for your reply in advance.
+
